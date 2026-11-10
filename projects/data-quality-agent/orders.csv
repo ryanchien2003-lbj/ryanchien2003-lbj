@@ -1,0 +1,11 @@
+order_id,customer_id,amount,status
+O001,C01,125,completed
+O002,C02,75,completed
+O002,C02,75,completed
+O004,C03,-30,completed
+O005,C99,60,completed
+O006,C01,45,unknown
+O007,,80,completed
+O008,C04,not-recorded,completed
+O009,C03,90,refunded
+O010,C04,130,cancelled

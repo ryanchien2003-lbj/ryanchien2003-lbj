@@ -25,4 +25,11 @@ Three standalone Streamlit demos using synthetic or fictional data, with local s
 | [Support Ticket Triage](https://github.com/ryanchien2003-lbj/ryanchien2003-lbj/tree/main/ai-projects/support-ticket-triage) | NLP classification with human review for low-confidence tickets |
 | [Operations Knowledge Assistant](https://github.com/ryanchien2003-lbj/ryanchien2003-lbj/tree/main/ai-projects/operations-knowledge-assistant) | Policy retrieval with source IDs and an evidence threshold |
 
+## More analytics projects
+
+| Project | What to explore |
+| --- | --- |
+| [Data Quality Agent](https://github.com/ryanchien2003-lbj/ryanchien2003-lbj/tree/main/projects/data-quality-agent) | An agent that calls audit tools, shows affected source rows, and marks incomplete audits. Includes a local workflow and an optional OpenAI planner. |
+| [SQL Cohort Retention](https://github.com/ryanchien2003-lbj/ryanchien2003-lbj/tree/main/projects/sql-cohort-retention) | A SQL retention heatmap and cohort drill-down for 300 synthetic customers, with tests for duplicate activity and unobserved months. |
+
 [Connect on LinkedIn](https://www.linkedin.com/in/ryan-chien-392601327/)

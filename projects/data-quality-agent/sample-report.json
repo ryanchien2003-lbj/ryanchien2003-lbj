@@ -1,0 +1,142 @@
+{
+  "complete": true,
+  "checks": [
+    {
+      "rule": "missing_values",
+      "definition": "Required order fields must be populated.",
+      "affected_rows": 1,
+      "csv_row_numbers": [
+        8
+      ]
+    },
+    {
+      "rule": "duplicate_order_ids",
+      "definition": "Each order_id must appear once.",
+      "affected_rows": 2,
+      "csv_row_numbers": [
+        3,
+        4
+      ]
+    },
+    {
+      "rule": "invalid_amounts",
+      "definition": "Order amount must be numeric, finite and greater than zero.",
+      "affected_rows": 2,
+      "csv_row_numbers": [
+        5,
+        9
+      ]
+    },
+    {
+      "rule": "orphan_customers",
+      "definition": "Each order customer_id must exist in customers.",
+      "affected_rows": 1,
+      "csv_row_numbers": [
+        6
+      ]
+    },
+    {
+      "rule": "invalid_statuses",
+      "definition": "Status must be completed, cancelled or refunded.",
+      "affected_rows": 1,
+      "csv_row_numbers": [
+        7
+      ]
+    }
+  ],
+  "distinct_flagged_rows": 7,
+  "trace": [
+    {
+      "tool": "profile",
+      "arguments": {},
+      "result": {
+        "rows": 10,
+        "columns": [
+          "order_id",
+          "customer_id",
+          "amount",
+          "status"
+        ],
+        "available_checks": [
+          "missing_values",
+          "duplicate_order_ids",
+          "invalid_amounts",
+          "orphan_customers",
+          "invalid_statuses"
+        ]
+      }
+    },
+    {
+      "tool": "check",
+      "arguments": {
+        "rule": "missing_values"
+      },
+      "result": {
+        "rule": "missing_values",
+        "definition": "Required order fields must be populated.",
+        "affected_rows": 1,
+        "csv_row_numbers": [
+          8
+        ]
+      }
+    },
+    {
+      "tool": "check",
+      "arguments": {
+        "rule": "duplicate_order_ids"
+      },
+      "result": {
+        "rule": "duplicate_order_ids",
+        "definition": "Each order_id must appear once.",
+        "affected_rows": 2,
+        "csv_row_numbers": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "tool": "check",
+      "arguments": {
+        "rule": "invalid_amounts"
+      },
+      "result": {
+        "rule": "invalid_amounts",
+        "definition": "Order amount must be numeric, finite and greater than zero.",
+        "affected_rows": 2,
+        "csv_row_numbers": [
+          5,
+          9
+        ]
+      }
+    },
+    {
+      "tool": "check",
+      "arguments": {
+        "rule": "orphan_customers"
+      },
+      "result": {
+        "rule": "orphan_customers",
+        "definition": "Each order customer_id must exist in customers.",
+        "affected_rows": 1,
+        "csv_row_numbers": [
+          6
+        ]
+      }
+    },
+    {
+      "tool": "check",
+      "arguments": {
+        "rule": "invalid_statuses"
+      },
+      "result": {
+        "rule": "invalid_statuses",
+        "definition": "Status must be completed, cancelled or refunded.",
+        "affected_rows": 1,
+        "csv_row_numbers": [
+          7
+        ]
+      }
+    }
+  ]
+}
