@@ -1,16 +1,14 @@
-## Hi there 👋
+# Hi, I’m Ryan Chien
 
-<!--
-**ryanchien2003-lbj/ryanchien2003-lbj** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**UCLA Anderson MS in Business Analytics · SQL · Python · Power BI**
 
-Here are some ideas to get you started:
+My background is in finance and actuarial consulting. I use data to understand customer behavior and recommend actions for retention and marketing teams.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Selected projects
+
+| Project | Business question | Tools |
+| --- | --- | --- |
+| [Bank Customer Churn Analysis](https://github.com/ryanchien2003-lbj/Churn-customer-analysis) | Which customer groups have higher churn rates, and where could a bank test retention outreach? | MySQL, Power BI |
+| [Customer Segmentation with K-Means](https://github.com/ryanchien2003-lbj/-Product-Segmentation-Case-Study) | How do customer groups differ by age, income, and spending, and what offers could each group respond to? | Python, scikit-learn, Jupyter |
+
+[Connect on LinkedIn](https://www.linkedin.com/in/ryan-chien-392601327/)
