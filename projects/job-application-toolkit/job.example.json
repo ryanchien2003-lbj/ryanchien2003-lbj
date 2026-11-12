@@ -1,0 +1,40 @@
+{
+  "job_id": "demo-analytics-001",
+  "company": "Example Company",
+  "title": "Data Analytics Intern",
+  "description": "The intern uses SQL and Python for reporting and data quality.",
+  "motivation": "I am interested in helping the team turn reliable data into clear weekly reports.",
+  "url": "http://127.0.0.1:8765/apply",
+  "form": {
+    "selector": "#application",
+    "submit": "button[type=submit]",
+    "confirmation": "#application-received",
+    "fields": [
+      {
+        "selector": "#name",
+        "type": "text",
+        "source": "name"
+      },
+      {
+        "selector": "#email",
+        "type": "text",
+        "source": "email"
+      },
+      {
+        "selector": "#resume",
+        "type": "file",
+        "source": "resume"
+      },
+      {
+        "selector": "#letter",
+        "type": "text",
+        "source": "cover_letter"
+      },
+      {
+        "selector": "#availability",
+        "type": "select",
+        "value": "Summer"
+      }
+    ]
+  }
+}

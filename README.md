@@ -31,5 +31,6 @@ Three standalone Streamlit demos using synthetic or fictional data, with local s
 | --- | --- |
 | [Data Quality Agent](https://github.com/ryanchien2003-lbj/ryanchien2003-lbj/tree/main/projects/data-quality-agent) | An agent that calls audit tools, shows affected source rows, and marks incomplete audits. Includes a local workflow and an optional OpenAI planner. |
 | [SQL Cohort Retention](https://github.com/ryanchien2003-lbj/ryanchien2003-lbj/tree/main/projects/sql-cohort-retention) | A SQL retention heatmap and cohort drill-down for 300 synthetic customers, with tests for duplicate activity and unobserved months. |
+| [Job Application Toolkit](https://github.com/ryanchien2003-lbj/ryanchien2003-lbj/tree/main/projects/job-application-toolkit) | Generates a cover letter from supplied experience, fills a configured application form, and records the result after review. |
 
 [Connect on LinkedIn](https://www.linkedin.com/in/ryan-chien-392601327/)

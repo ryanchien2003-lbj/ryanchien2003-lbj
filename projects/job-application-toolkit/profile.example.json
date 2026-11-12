@@ -1,0 +1,24 @@
+{
+  "name": "Alex Example",
+  "fields": {
+    "name": "Alex Example",
+    "email": "alex@example.com",
+    "resume": "resume.txt"
+  },
+  "evidence": [
+    {
+      "keywords": [
+        "sql",
+        "data quality"
+      ],
+      "statement": "In a sample analytics project, I used SQL to reconcile transaction totals and check for duplicate order IDs."
+    },
+    {
+      "keywords": [
+        "python",
+        "reporting"
+      ],
+      "statement": "I used Python to summarize weekly activity and document the checks behind the report."
+    }
+  ]
+}
